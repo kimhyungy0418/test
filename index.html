@@ -21,7 +21,7 @@
         // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
 
         // the link to your model provided by Teachable Machine export panel
-        const URL = "./my_model/";
+        const URL = "https://teachablemachine.withgoogle.com/models/mzIzRaH0D/";
 
         let model, webcam, labelContainer, maxPredictions;
 
@@ -62,8 +62,9 @@
         async function predict() {
             // predict can take in an image, video or canvas html element
             const prediction = await model.predict(webcam.canvas);
-
         }
+    </script>
+
     </script>
 </body>
 
